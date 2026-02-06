@@ -15,6 +15,91 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: cn.llld.qsyy
+Version: 2.3.1-3
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Installed-Size: 4980
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/FT悬浮文本增强替换翻译汉化.deb
+Size: 4707750
+MD5sum: dee2290ef488b44dfdc52f892650c93a
+SHA1: b70ca5f056f0372c091653da9529e64af3d38d9c
+SHA256: dda3b6235d451c0bc1b6b4ff42fbf12273f3d7b22e7cd750d21fd4c1bb8874c6
+Section: rootless应用插件
+Description: ***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮文本增强替换翻译汉化
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: eg.translux
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: AnubisTweaks
+Installed-Size: 888
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/TransLux.deb
+Size: 281272
+MD5sum: 644bf6eb1da3032afc60ac03699e7081
+SHA1: 87c847d989d101d487b4cf3c201546559b9c7721
+SHA256: b921dadc6b5d033af90e8895beca13a132f813ec3fe899e7a4c8363feeb786a9
+Section: Tweaks
+Description: iOS高级翻译集成，支持OCR（调试BUILD，增强日志记录）。在所有应用程序的文本选择菜单中添加翻译按钮。包括Snapper 3集成，用于图像OCR和翻译。支持谷歌、百度、ModernMT、微软翻译引擎和有道、Yandex OCR引擎。具有可定制的UI、应用程序白名单。
+Author: AnubisTweaks
+Name: TransLux
+
+Package: sini921.cursorpro
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 452
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/CursorPro.deb
+Size: 51632
+MD5sum: 2e9af056daf2f7c043705d81969bd572
+SHA1: 63880d83ef79f3c0d057b57492c05d9bfad03eb4
+SHA256: ce3746e8c5ed31fd4b9320025a399cbfee60250ca83ec9d8210f8725047fc537
+Section: 越狱插件
+Description: 光标简单优化
+Author: SINI
+Name: CursorPro
+
+Package: wiki.qaq.colorfulwallpaperx
+Version: 5.5
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 6016
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/wiki.qaq.colorfulwallpaperx_5.5_iphoneos-arm64e.deb
+Size: 1452012
+MD5sum: 895a7f110bd55d625c762f522a158e5f
+SHA1: 73f4293f48074b3183df3ecc2ec1dddbcbfd5a21
+SHA256: b0b3771cbc3902bb500d743068b5321ae59e0a2142c5298f3baa2f29e4b4219e
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica <82flex@gmail.com>
+Name: Colorful Wallpaper X
+
+Package: ws.hbang.newterm3
+Version: 3.0
+Architecture: iphoneos-arm64e
+Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: ./debs/NewTerm3中文版.deb
+Size: 5633520
+MD5sum: 4dbedbf73eddf4778dc0de2bf8f9163a
+SHA1: 5bf7b39c7bf77148408417e5fdc44a0d1a0cfe25
+SHA256: ca59d524b124139e56e81037fa1c30e76785a05b4ae25cb91f73147acbe5f601
+Section: Tweaks
+Description: newterm3中文版
+Author: 玩游戏的李子- <xuanhua880@gmail.com>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm3中文版
+
 Package: com.binglan.dongtaidao
 Version: 2.0.3
 Architecture: iphoneos-arm64e
