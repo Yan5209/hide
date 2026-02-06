@@ -15,6 +15,158 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.binglan.dongtaidao
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 428
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/动态岛_2.0.3.deb
+Size: 44792
+MD5sum: 3426351dfc67e2ec4163914f520ccd29
+SHA1: 3c29b5554c8793a564944fa847ba2ec5947e1d2b
+SHA256: 0a8fc5fd1f4b72de828b57a79fafb470aad37ed639a81a3d35e977dd2da3619f
+Section: Tweaks
+Description: 灵动岛增加视频背景。
+Author: binglan
+Name: 动态岛
+
+Package: com.binglan.kongzhbg
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: ./debs/com.binglan.kongzhbg_1.0.2_iphoneos-arm64e.deb
+Size: 38416
+MD5sum: e5530bf8cce7c42ee391636a26b6857c
+SHA1: 8957f6b880cc9171d5bdae72a3819fcbb066dac0
+SHA256: 36c2333a9f5032b5195ac55666a434400d6085afc37822ca5f374819418c7d88
+Section: Tweaks
+Description: 为控制中心增加视频背景
+Author: binglan
+Name: 控制中心视频
+
+Package: com.binglan.kzmh
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.binglan.kzmh_1.0.6_iphoneos-arm64e.deb
+Size: 27554
+MD5sum: 0298a2b0bc80b33445836f66eac0bcf2
+SHA1: 24275bd20874d714a388bdaecac6cc0511fd14b2
+SHA256: c6d520775bee5ce81d6050e5186dbeca5a6282750c4c7ef132154cb28860d272
+Section: Tweaks
+Description: 神秘功能。
+Author: binglan
+Name: 控制中心美化
+
+Package: com.binglanqjsy.deb
+Version: 2.2.6
+Architecture: iphoneos-arm64e
+Maintainer: 冰蓝
+Installed-Size: 780
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: ./debs/com.binglanqjsy.deb_2.2.6_iphoneos-arm64e.deb
+Size: 119500
+MD5sum: 686e9d3eb0ae0a012e0f3425a8ad8f65
+SHA1: a255155ec7da5650aa8eb6c3ec4208c65a69ce9f
+SHA256: ef4184a44c5cdc9e71d24d289564267900bce41832eee62c8d1f75488b9d839f
+Section: Tweaks
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Author: 冰蓝
+Name: 全局水印
+
+Package: com.liuf.lddspbg
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: liuf <1602389262>
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/灵动岛视频背景.deb
+Size: 19488
+MD5sum: 0a62ca062c305e967f198b757ef85e67
+SHA1: 75543cbc8259bf379d015e924c6223c727380a78
+SHA256: f9647d977e4af2673a5610c19535493e972e1221794c611fb747dd5e37d55d41
+Section: Tweaks
+Description: 灵动岛视频背景 i!
+Author: liuf <1602389262>
+Name: 灵动岛视频背景
+
+Package: com.mediacolor
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: Nathan Senter
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/媒体颜色.deb
+Size: 8656
+MD5sum: 8e4a2be4ec27f1d49659646bea31a3a1
+SHA1: 3d89c22c1e6027af6f9e6e663faf2e568842f920
+SHA256: df2e6be4e7d625408992a7163110120eefacac675f79f68f88f20ae9558da0b3
+Section: Tweaks
+Description: 调整锁定屏幕的“正在播放”小部件的背景颜色，使其与专辑封面相匹配！（目前仅限iPhone）
+Author: Nathan Senter
+Name: 媒体颜色
+
+Package: com.nowplayibg3x2
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dd
+Installed-Size: 208
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/控制中心播放器3x2.deb
+Size: 30926
+MD5sum: e141e8a5cb8875ac8d9748f9ae36bea2
+SHA1: 5fe3e40eb30a71eab6fcdf7a54bf632569f1fb32
+SHA256: 36933b064b18db1c39cd92660af12deab8646e40f8853d8a491044b53fe149b8
+Section: Tweaks
+Description: 素材路径/var/mobile/NowPlayingTheme，优先级bg.mp4>bg.gif>bg.png
+Author: dd
+Name: 控制中心播放器3x2
+
+Package: com.nx.stheno
+Version: 77.1.4.7
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 1928
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/Stheno_77.14.7.deb
+Size: 307472
+MD5sum: 45a5053aef2528848092c79974043843
+SHA1: cac9db158e17cedaab1857ffc3a00a6fea63ee5f
+SHA256: a54a7721cdeed56b977838da8146c5624f9c1682f934430ccafd44aff77516ec
+Section: Tweaks
+Description: Medusa!
+Author: Crassna
+Name: Stheno
+
+Package: zp.cocoatop64
+Version: 3.1.2
+Architecture: iphoneos-arm64e
+Maintainer: zp
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
+Filename: ./debs/CocoaTop64.deb
+Size: 195668
+MD5sum: 6fff8e4b5422247f1bece94b6139a35b
+SHA1: e96d8c5f1cc529d71c471c8f8a9acb455ebfe49b
+SHA256: 22687332735d7d8807cf3e17829e018420be393c0b10b617e3291be22cd33186
+Section: Utilities
+Description: 适配rootless并增加一些小功能.- 1.长按图标的插件针对APP更友好- 2.此app更适合屏蔽进程类的注入- 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
+Author: Domo
+Name: CocoaTop64
+
 Package: com.airpodscompanion
 Version: 1.5
 Architecture: iphoneos-arm64e
