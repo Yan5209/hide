@@ -15,6 +15,72 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.airpodscompanion
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Ethan Whited
+Installed-Size: 10704
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/Airpods增强.deb
+Size: 488812
+MD5sum: a01cf71896746945b6ac2348f970a6ec
+SHA1: a0c5573c1ce6e9f9752ff060d9b2699e58741109
+SHA256: 4ea908147bead54dbbd3d6579b554bfd2b052588bd9c5170aed5eee242e4d7bc
+Section: Tweaks
+Description: Floating Noise Cancellation control next to volume slider
+Author: Ethan Whited
+Name: Airpods增强
+
+Package: jp.uzra.aerial
+Version: 4.0
+Architecture: iphoneos-arm64e
+Maintainer: uz.ra
+Installed-Size: 31492
+Pre-Depends: rootless-compat(>= 0.9), rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/Aerial.deb
+Size: 16859532
+MD5sum: c491cdd2c7641c9d79b9abdb1b358d2e
+SHA1: d1915fff73e0b644c6c536e8f9289322c6cb60ea
+SHA256: 2bf58ad751af64235cbd79f417a895d7d8ed3983fe87e071fd6e69a7597316b0
+Section: Tweaks
+Description: Stage Manager, redesigned for iOS
+Author: uz.ra
+Name: Aerial
+
+Package: net.alpine
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/Alpine TVOS弹窗.deb
+Size: 658454
+MD5sum: c89723fe6aa0b77dc568c13d7a96bc0d
+SHA1: f1d47fabf3e77dc5a54eff85d70528fea3559011
+SHA256: 40961b5dce39d2e3c972b0b2bd2479b9e8c91646214c8959712ef81a772ea7d9
+Description: 替换所有弹窗为精美的TVOS风格，已汉化！
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Alpine TVOS弹窗
+
+Package: userfile
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 阎王
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/自用配置文件.deb
+Size: 6940152
+MD5sum: e6b3c4efda2de6e81baa493d19b67d8e
+SHA1: eb3bd0a15712fbfd83b27796b1f51703e52329a6
+SHA256: 4b863e4f5d515fe07d6e0be13ff9e5d2b62923eb4f73c051965671037122c2d5
+Section: Tweaks
+Description: 自用配置文件
+Author: 阎王
+Name: 自用配置文件
+
 Package: apt.systeminfo
 Version: 2.7.2-3
 Architecture: iphoneos-arm64e
