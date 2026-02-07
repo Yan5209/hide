@@ -15,6 +15,40 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: net.xuanhua120hz
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/Free免费120hz.deb
+Size: 23976
+MD5sum: 57b19c1e92b0145c2ce10eb8b30d13a3
+SHA1: d2f8bc7d4050d6aa2ac91020501e6f4f8da3c0ac
+SHA256: 2c99bcbe236111ee4d08b8407dabc42d09ccfa5c648924bdec4a2fd121254de8
+Section: 系统增强
+Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，并一定有用，无效请缷载！
+Author: Rain
+Name: Free免费120hz
+Sponsor: Rain
+
+Package: zp.cocoatop64
+Version: 3.1.2
+Architecture: iphoneos-arm64e
+Maintainer: zp
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
+Filename: ./debs/CocoaTop64.deb
+Size: 276504
+MD5sum: 282ac7ab5d7db7b982d82634340b3649
+SHA1: 2ca20cf917d75ce752fe95501850d9dc5cd9fd2b
+SHA256: eab55846d7d45375799418b84284e2f9f007910d06b507f37c45c1d02daa6b24
+Section: Utilities
+Description: 适配rootless并增加一些小功能.- 1.长按图标的插件针对APP更友好- 2.此app更适合屏蔽进程类的注入- 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
+Author: Domo
+Name: CocoaTop64
+
 Package: me.afhook
 Version: 3.7.0
 Architecture: iphoneos-arm64e
