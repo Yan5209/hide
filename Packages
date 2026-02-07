@@ -304,22 +304,6 @@ Description: Medusa!
 Author: Crassna
 Name: Stheno
 
-Package: zp.cocoatop64
-Version: 3.1.2
-Architecture: iphoneos-arm64e
-Maintainer: zp
-Pre-Depends: rootless-compat(>= 0.9)
-Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
-Filename: ./debs/CocoaTop64.deb
-Size: 195668
-MD5sum: 6fff8e4b5422247f1bece94b6139a35b
-SHA1: e96d8c5f1cc529d71c471c8f8a9acb455ebfe49b
-SHA256: 22687332735d7d8807cf3e17829e018420be393c0b10b617e3291be22cd33186
-Section: Utilities
-Description: 适配rootless并增加一些小功能.- 1.长按图标的插件针对APP更友好- 2.此app更适合屏蔽进程类的注入- 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
-Author: Domo
-Name: CocoaTop64
-
 Package: com.airpodscompanion
 Version: 1.5
 Architecture: iphoneos-arm64e
