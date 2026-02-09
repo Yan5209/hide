@@ -15,6 +15,41 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.binglan.nb23
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit
+Filename: ./debs/NB23.deb
+Size: 26860
+MD5sum: d31a02122f6032c03515f77cdc1cb77b
+SHA1: 18a2411d4537c3a0962e9dafb6fcfe27859bb3b2
+SHA256: 47406643bdb090d04a8f98deb428643fd566fa4d843298d87e4b65165854988c
+Section: Tweaks
+Description: 素材路径/var/mobile/控制中心美化/diy/NB23
+Author: binglan
+Name: CC控制中心视频模块
+
+Package: com.opa334.choicy
+Version: 9.9.9
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/Choicy.deb
+Size: 164608
+MD5sum: 205745a78aeb9c1273b657cf30d441ec
+SHA1: 77b4ce10a131be156207262a1de603d04f0adc61
+SHA256: 8f6eba342aec1880d2da2cab1b45e62afc65cf186446e2162e0baf57e8b69717
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: net.xuanhua120hz
 Version: 1.0.0-11+debug
 Architecture: iphoneos-arm64e
