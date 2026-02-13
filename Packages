@@ -14,6 +14,38 @@ Section: Tweaks
 Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
+Package: com.be-huge.floating-view
+Version: 1.5.9
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.5.9_iphoneos-arm64e.deb
+Size: 651872
+MD5sum: 0756affefc789cf86f2c44d4266c97c4
+SHA1: f56cd6f50da893e494f39a94db95a7dde03a3878
+SHA256: 367f3e6adaf602c0753cb8f8d0b4f539c8048cffaaf55adbe4266f36cc6d078e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.sini921.floatingviewhelper
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.floatingviewhelper_0.0.1-2_iphoneos-arm64e.deb
+Size: 257800
+MD5sum: 2ecf51d8d600df1549b29a90219684e5
+SHA1: 96378b78555666538160dc8f068723470db14786
+SHA256: 69fa5ba64b6dc44b472e43d4e07f297c8f0f8b194ce78f1bdc4ad5b3918d9015
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: SINI
+Name: FloatingView-arc图标
 
 Package: com.binglan.nb23
 Version: 0.0.1
