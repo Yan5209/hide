@@ -31,6 +31,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.nx.stheno
+Version: 2025.16
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/Stheno_2025.16.deb
+Size: 539200
+MD5sum: 83855d2c8b685ad6ad8160134e257030
+SHA1: 6f9f70ed14bd4a4ede379b04edf722562a2323ba
+SHA256: c644c48781096d48510260d33ca9cda8008e35f794588a705cceac4ebe7d140b
+Section: Tweaks
+Description: 终端输入Stheno+udid计算激活码
+Author: Crassna
+Name: Stheno
+
 Package: ws.hbang.newterm3
 Version: 3.0
 Architecture: iphoneos-arm64e
