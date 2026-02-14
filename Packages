@@ -31,6 +31,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: ws.hbang.newterm3
+Version: 3.0
+Architecture: iphoneos-arm64e
+Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: ./debs/NewTerm3中文版.deb
+Size: 19871724
+MD5sum: 2719911fc82e5a748c886b0ea4f322e9
+SHA1: 49c73a148bd679ec36faf26b7ccf9e487bc330f7
+SHA256: 477a07b1333ee1d6d82989794966b6fecb4dc2362ce08dddf6a1b7de54a7af1f
+Section: Tweaks
+Description: newterm3中文版
+Author: 玩游戏的李子- <xuanhua880@gmail.com>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm3中文版
+
 Package: jp.uzra.aerial
 Version: 4.1.3
 Architecture: iphoneos-arm64e
