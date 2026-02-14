@@ -270,22 +270,6 @@ Description: Dynamic wallpaper with colorful effects.
 Author: Lessica <82flex@gmail.com>
 Name: Colorful Wallpaper X
 
-Package: ws.hbang.newterm3
-Version: 3.0
-Architecture: iphoneos-arm64e
-Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Filename: ./debs/NewTerm3中文版.deb
-Size: 5633520
-MD5sum: 4dbedbf73eddf4778dc0de2bf8f9163a
-SHA1: 5bf7b39c7bf77148408417e5fdc44a0d1a0cfe25
-SHA256: ca59d524b124139e56e81037fa1c30e76785a05b4ae25cb91f73147acbe5f601
-Section: Tweaks
-Description: newterm3中文版
-Author: 玩游戏的李子- <xuanhua880@gmail.com>
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Name: NewTerm3中文版
-
 Package: com.binglan.dongtaidao
 Version: 2.0.3
 Architecture: iphoneos-arm64e
