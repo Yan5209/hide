@@ -31,6 +31,23 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: jp.uzra.aerial
+Version: 4.1.3
+Architecture: iphoneos-arm64e
+Maintainer: uz.ra
+Installed-Size: 34048
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/Aerial_4.1.3.deb
+Size: 9614228
+MD5sum: 62c1f1d13ff92d60ffcf763ad7980536
+SHA1: 7f1c6e77c4c0885d01ad1224f6b8880ae6e952be
+SHA256: 2e8cf26583f435dafb403f7aec340ee170bafb1afdf3ccfe596816859d0b35ef
+Section: Tweaks
+Description: Stage Manager, redesigned for iOS
+Author: uz.ra
+Name: Aerial
+
 Package: com.sini921.floatingviewhelper
 Version: 0.0.1-2
 Architecture: iphoneos-arm64e
