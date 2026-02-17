@@ -15,6 +15,23 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.safarichinese
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Your Name
+Installed-Size: 192
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/SafariChinese.deb
+Size: 25748
+MD5sum: 35b573b5345649e5890ee05c36a78753
+SHA1: 1ca0b636788ce48f8d13d2110c136fafa7b561fc
+SHA256: 13803174b0e53377d8198a9af98650fa5c834cfd5eac80a4d08029e7e3d6e7bb
+Section: Tweaks
+Description: 汉化Safari浏览器试验性WEBKIT功能菜单
+Author: Your Name
+Name: SafariChinese
+
 Package: com.be-huge.floating-view
 Version: 1.5.9
 Architecture: iphoneos-arm64e
