@@ -31,6 +31,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/Filza.deb
+Size: 7028456
+MD5sum: 2b20fb7228272d46ace47e11c3b9711b
+SHA1: 7df9e74bf760c5ed2f5ef4ddacccbc7f17f5ae39
+SHA256: aea2af65ffc085d90e2a435fa4d6245e3f99df304ee1e5dbbb720a43717ee97e
+Section: Utilities
+Description: iPhone、iPad、iPod Touch的文件管理器。支持iOS 11+。此版本仅支持64位设备
+Author: TIGI Software
+Name: Filza文件管理器
+
 Package: com.binglan.dongtaidao
 Version: 2.0.4
 Architecture: iphoneos-arm64e
