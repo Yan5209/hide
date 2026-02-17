@@ -14,6 +14,7 @@ Section: Tweaks
 Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
+
 Package: com.be-huge.floating-view
 Version: 1.5.9
 Architecture: iphoneos-arm64e
@@ -30,23 +31,6 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
-
-Package: apptoolsicon
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 绘梨衣
-Installed-Size: 3092
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/AppTools圆形图标.deb
-Size: 174838
-MD5sum: 6bb25c3aaec18f5ed1244be2c45c1368
-SHA1: d9e04fa6db39c78f0108dee03d41cc4f99536219
-SHA256: d5fd50536250b05507f35996a0be9e777ee74f986a8fb6929a619b93003e4685
-Section: Tweaks
-Description: AppTools圆形图标
-Author: 绘梨衣
-Name: AppTools圆形图标
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4~roothide
