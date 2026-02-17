@@ -31,6 +31,107 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.binglan.dongtaidao
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.binglan.dongtaidao_2.0.4_iphoneos-arm64e.deb
+Size: 39148
+MD5sum: 19a9120d987744f34429de07465a1f69
+SHA1: 3fb5e99a203e6550fa2c64854b9be3da7df1aac1
+SHA256: 6a3e3ffd3f18bef5ab5991f4d7c540ca22fae8f3eed0514d59b368a2c15bf9ca
+Section: Tweaks
+Description: 灵动岛增加视频背景。
+Author: binglan
+Name: 动态岛
+
+Package: com.binglan.kzmh
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.binglan.kzmh_1.0.7_iphoneos-arm64e.deb
+Size: 25044
+MD5sum: 11e0f004d41bd95f733859dde689a601
+SHA1: 176f514a05cac02c9c371029fc9eb0221d994964
+SHA256: c7df781a05d3e6e89be733a9937ad2a1a9e0bb556022ccb11f791c1731ccbf67
+Section: Tweaks
+Description: 神秘功能。
+Author: binglan
+Name: 控制中心美化
+
+Package: com.ccborder
+Version: 1.1.2-28
+Architecture: iphoneos-arm64e
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 732
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/CCBorder_1.1.2-28.deb
+Size: 149856
+MD5sum: 9cd494ab396170820d970847ba2cd408
+SHA1: 974e44c634472bd94fea933791532d67bc28a061
+SHA256: 82aa0fa428c5ed1ae226c56b8fc573850331ed7d1776e6a9381713f21b0c8a6d
+Section: 控制中心
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Author: fiore & p2kdev & SINI
+Name: CCBorder
+
+Package: com.rain.120hzpro
+Version: 1.0.0-25+debug
+Architecture: iphoneos-arm64e
+Maintainer: rain
+Installed-Size: 452
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/rain的120hz_1.0.0-25.deb
+Size: 50352
+MD5sum: d275f1037dd82d85d86b4b07f4b87951
+SHA1: 40ec9088ba2495c7de3ae87eec70d2f1d47c1af8
+SHA256: ea1a9ba02fad0e70529d306a6529bd9d63fc2167a072f1a4fcd044c4f83618f5
+Section: Tweaks
+Description: 强制高帧率应用到每一个应用上
+Author: rain
+Name: rain的120hz Pro
+
+Package: com.rain.processmonitor
+Version: 1.0.0-156+debug
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 1420
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/Rain的应用_1.0.0-156.deb
+Size: 184802
+MD5sum: 8b4cc827f0483506cdd558af3dd5f1d7
+SHA1: 7908bb55a342e8d6db77ce235d7f4d25aa2a3bc5
+SHA256: bef6d6fe0f5a281330152943ff8fdca9562a211d8ff72ef89b05510e993f94c8
+Section: Tweaks
+Description: 进程监控与管理工具。功能包括：使用统计、性能统计、通知统计、运行中进程、插件管理、定时调度、插件备份、更新检测、资源监控、启动分析、后台管理、超级墓碑、双声音通知等。
+Author: Rain
+Name: Rain的应用
+
+Package: com.rain.reachnotify
+Version: 0.0.1-178+debug
+Architecture: iphoneos-arm64e
+Maintainer: rain
+Installed-Size: 692
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Rain的通知_0.0.1-178.deb
+Size: 87426
+MD5sum: e7dac7ec205f7a61b5353683975e4cde
+SHA1: 49a7827b9e460ae252cf4597b9af2496dc135ce3
+SHA256: c305dcc5a3579a4feb8a75832eeff7eef4081811b00149162e458cf1f77f2d82
+Section: Tweaks
+Description: 通知显示增强，收到通知能看到图标。
+Author: rain
+Name: Rain的通知
+
 Package: com.nx.stheno
 Version: 2025.16
 Architecture: iphoneos-arm64e
