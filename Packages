@@ -15,6 +15,40 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.susu.sumusicplayercc
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: ./debs/3×2播放器.deb
+Size: 123026
+MD5sum: 5fe7aebbddeb8f7023ff711bb065b2ae
+SHA1: a852fa1da0d56bca3605a8d4654fb13a1fc3fe78
+SHA256: 250a1ea26673b3b63ecc1d5373d3587e7989acfcc751e50edd87bd6e2ed3af85
+Section: Control Center (Modules)
+Description: 控制中心音乐播放器
+Author: 苏苏
+Name: 控制中心音乐播放器
+
+Package: jp.uzra.aerial
+Version: 4.2
+Architecture: iphoneos-arm64e
+Maintainer: uz.ra
+Installed-Size: 34040
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/Aerial_4.2.deb
+Size: 9694516
+MD5sum: b15d8aa17db129c0757bf3de0150c4d9
+SHA1: 0e58ba04694735065194bc05d9c15a426d953606
+SHA256: 91bc07b77967d560b8112e7430d76b25873990aabd55a9e7790d6d7799b960f6
+Section: Tweaks
+Description: Stage Manager, redesigned for iOS
+Author: uz.ra
+Name: Aerial
+
 Package: com.safarichinese
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm64e
