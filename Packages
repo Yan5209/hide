@@ -15,6 +15,54 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.rain.rainwindow
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 3740
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.rain.rainwindow_1.0-2_iphoneos-arm64.deb
+Size: 408256
+MD5sum: 8aa21592d7b93afa292f906bfb1abd1d
+SHA1: 00b99d23904efdb155de2e88189ef37d8726cff2
+SHA256: 423757ac46883ff1ce867379188227c3bd7f1d6d43aeb51405b90848ae5c8962
+Section: Tweaks
+Description: Rain的窗口 - 点击状态栏电池图标呼出多功能悬浮面板，集成天气、相册、备忘录、AI助手、应用快捷启动、系统信息、通知管理等丰富模块，支持自定义排列与个性化配置
+Author: Rain
+Name: Rain的窗口
+
+Package: com.thefool.ccaudioplay
+Version: 0.0.1-94+debug
+Architecture: iphoneos-arm64
+Maintainer: thefool
+Installed-Size: 29540
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.thefool.ccaudioplay_0.0.1-94+debug_iphoneos-arm64.deb
+Size: 25090780
+MD5sum: 7e22abf9f62e77bf79371bf5f82c70ef
+SHA1: 8b63dd05af342c1cab579c3e279b17d07a1098eb
+SHA256: a61f01e9709a5875239b0c3f0902d685ee819896f8536e9ec414db106541a81e
+Section: Tweaks
+Description: 播放器美化 不支IOS15
+Author: thefool
+Name: CCAudioPlay
+
+Package: com.thefool.tfkeyboardhook
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm64
+Maintainer: thefool
+Installed-Size: 2672
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.thefool.tfkeyboardhook_0.0.1-2+debug_iphoneos-arm64.deb
+Size: 661216
+MD5sum: 35905cd4b2aa3f3a984eb67bc39917e2
+SHA1: 64cda169fd03f6ae16587f49516a016b4e80e4c5
+SHA256: 2bcb93faa15a5993fc27d1a057d3aff697d1d6f1a0cabfb1aceaa25b7bf9c9c7
+Section: Tweak
+Description: 键盘美化
+Author: thefool
+Name: TFKeyBoardHook
+
 Package: com.roothide.patcher
 Version: 2.1.4-1+debug
 Architecture: iphoneos-arm64e
