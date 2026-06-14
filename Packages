@@ -15,6 +15,80 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.axs.screenshellpro
+Version: 5.2.0-61
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/ScreenShell Pro_5.2.0-61.deb
+Size: 68108
+MD5sum: 57f903757b305ce09249a7e3442c1541
+SHA1: d308a6bb12c05d7d5bd6a2533bfb1a18eb946100
+SHA256: becec10cbb8af09430d4069e24013e2b4dd93fbc2ef78a702d6317c515dd617a
+Section: Tweaks
+Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
+ * 1. 录屏套壳渲染极快。
+ * 2. 渲染过程中手机不发烫。
+ * 3. 插件不需要任何依赖。
+ * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Name: ScreenShell Pro
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
+
+Package: com.charlieleung.trollopenjb
+Version: 1.3.8
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 5940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/trollopen越狱版_1.3.8_rootless.deb
+Size: 2378168
+MD5sum: 0f64b3005e6c6a95b2b4422d899d5edd
+SHA1: e31bd670e850c20e0b213dec9ee37039d457b7fd
+SHA256: 924acc0fbd9300bd6bb10312423fc0e641fa98bec34e4fd88797e0c8245db991
+Section: Tweaks
+Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios15 及以上。
+Author: Charlie Leung
+Name: TrollOpen
+
+Package: com.thefool.tfkeyboardhook
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm64e
+Maintainer: thefool
+Installed-Size: 2672
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.thefool.tfkeyboardhook_0.0.1-2.deb
+Size: 1936184
+MD5sum: fba126b645e0468ee9b648f1e34aea65
+SHA1: 9077698b75b27567e7a662fabe399944d46313a4
+SHA256: 1ee9c27cac1c9a8b434075c303f362107ba3945ce43da0d074dc428bc01bd6a4
+Section: Tweak
+Description: 键盘美化
+Author: thefool
+Name: TFKeyBoardHook
+
+Package: com.yechen.baifenbi
+Version: 0.1.40
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 924
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Filename: ./debs/com.yechen.baifenbi_0.1.40.deb
+Size: 168214
+MD5sum: 4126f3d49b6c52f33415a62e05afe7c0
+SHA1: e6c1aadf65bb6305a1041bc82a49cad0455b1599
+SHA256: 71325dd11e2e1b825fa6f23ff8c536d868927723c119ac3aa5a72ec22d7be83a
+Section: Tweaks
+Description: 在 iOS 16-17 控制中心亮度和音量滑块上显示可自定义的百分比。
+Author: 夜辰
+Name: 控制中心百分比
+
 Package: com.ccmodulebackground
 Version: 0.2.173
 Architecture: iphoneos-arm64e
