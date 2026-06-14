@@ -15,6 +15,23 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: userfile
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: 阎王
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/自用配置_1.2.deb
+Size: 19675048
+MD5sum: 71690aad9b6815a89f58e099909005db
+SHA1: 147097f08e38969d112aea5209cbd8a8032ba82f
+SHA256: c33202d900f5752ce74f12a52a2382ec326681593a4a2287bd8e89e61ef49991
+Section: Tweaks
+Description: 自用配置文件
+Author: 阎王
+Name: 自用配置文件
+
 Package: com.iosdump.airdrop
 Version: 0.0.1
 Architecture: iphoneos-arm64e
