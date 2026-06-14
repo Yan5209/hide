@@ -15,6 +15,113 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.ccmodulebackground
+Version: 0.2.173
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 14052
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader, mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.codex.ccmodulebackground
+Replaces: com.codex.ccmodulebackground
+Filename: ./debs/CC模块背景.deb
+Size: 733296
+MD5sum: 5d328ddd42c18abce7f56fbea8da45e6
+SHA1: 4a0fea71c6a330400c3d578996a5b2f9eeb8fa39
+SHA256: ebdc0b0c3d9e6dd5c078e2cf47e38396eba2e740ca1705fa1f0b9cc135951b14
+Section: Tweaks
+Description: 自建控制中心原生模块，支持承载系统原生模块、自定义尺寸和背景。
+Tag: role::enduser, purpose::extension, cydia::requires-respring
+Author: 夜辰
+Name: CC模块背景
+
+Package: com.ccplayer
+Version: 1.7.573
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 2048
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/cc播放器.deb
+Size: 4298124
+MD5sum: 770c57dc81765bc451cd0a899c3336f1
+SHA1: 6241ac0d25c8b37944e0e462dedaa930fc905eb1
+SHA256: 119d24c71dcff42e216ba1742bf455500e098f205c072677e59c7ff7028d583e
+Section: Tweaks
+Description: 这是一款加强控制中心3x2/4x2播放器美化的插件
+Author: 夜辰
+Name: cc播放器
+
+Package: com.rain.processmonitor
+Version: 1.0.0-156+debug
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 1420
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.rain.processmonitor.deb
+Size: 184776
+MD5sum: 173b5950c05d4894f01188d80a3f34ba
+SHA1: f44067a1479ccd7774338c8e2c98a2588c8a7bf3
+SHA256: 44c04dc22cfe0a3b20a5b6ee7104a7f07ac5c6f56e674040c6811edde6ce4e93
+Section: Tweaks
+Description: 进程监控与管理工具。功能包括：使用统计、性能统计、通知统计、运行中进程、插件管理、定时调度、插件备份、更新检测、资源监控、启动分析、后台管理、超级墓碑、双声音通知等。
+Author: Rain
+Name: Rain的应用
+
+Package: com.rain.rainwindow
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 4980
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.rain.rainwindow.deb
+Size: 1620668
+MD5sum: e51b57188e80e10288fc84e28dc41ae6
+SHA1: ddb2444f59c32d8d553c881b1c60430b5cc5439b
+SHA256: 104f99629fb78aab5acc161f625539708443fe44dd81bf1541dd53f9260663da
+Section: Tweaks
+Description: Rain的窗口 - 点击状态栏电池图标呼出多功能悬浮面板，集成天气、相册、备忘录、AI助手、应用快捷启动、系统信息、通知管理等丰富模块，支持自定义排列与个性化配置
+Author: Rain
+Name: Rain的窗口
+
+Package: com.simon.controlcenterlayout
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: Simon
+Installed-Size: 620
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/控制中心模块 2.1.deb
+Size: 79956
+MD5sum: ecaeb42ec0b221d77243facc5c70bb39
+SHA1: 82fe8916b1e5cf25067a487ad56795a2ed887829
+SHA256: d0ef4158714366d28a81e48515d413581dfae87570ae2e9e0b7fe659fb88b22f
+Section: Tweaks
+Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Author: Simon
+Name: 控制中心模块
+
+Package: com.sini921.ccloader
+Version: 0.0.1-18
+Architecture: iphoneos-arm64e
+Maintainer: 橙子
+Installed-Size: 536
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.ccloader_0.0.1-18.deb
+Size: 167028
+MD5sum: 299e51a5ab01f0ea96f0b1b6ef1e4b88
+SHA1: dc897d2675f8454a06316bdfa3b7ac7331111381
+SHA256: cca7d45fb0a5e2ddb1a8ae1fe4e10a76804a39bc67543ee99edda7bd00fcb1f5
+Section: 控制中心
+Description: 控制中心CAPackage加载器
+Author: 橙子
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
+Name: CCLoader(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
+
 Package: com.binglan.kzmh
 Version: 2.2.3-END
 Architecture: iphoneos-arm64e
