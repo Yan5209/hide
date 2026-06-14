@@ -15,6 +15,89 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.ccborder
+Version: 1.1.2-42
+Architecture: iphoneos-arm64e
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 1008
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/CCBorder_1.1.2-42.deb
+Size: 207408
+MD5sum: 44688eb30c1ad70ae042bc1553bf17e7
+SHA1: eb904956b2522c6a132586b4181a97496abc0380
+SHA256: 92ba29c8f3d7023f0379c270f7258118b017d0df6ecb09285d9503cb21dca704
+Section: 控制中心
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Author: fiore & p2kdev & SINI
+Name: CCBorder
+
+Package: com.rain.raindyn
+Version: 1.0.0-8+debug
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.rain.raindyn_1.0.0-8+debug_iphoneos-arm64.deb
+Size: 67524
+MD5sum: ef761bccde82d074ccec11787adeff8d
+SHA1: 53136609cafa31489e01aede6a085c63fe852fbe
+SHA256: e5c8aee8803fe11801083c431e33bb38e07f54f0197dbe962b4b042030ca32ae
+Section: Tweaks
+Description: Rain的灵动卡片 - 自定义通知卡片动画效果，支持自定义背景、粒子特效、宠物、天气显示等丰富功能。
+Author: Rain
+Name: Rain的灵动卡片
+
+Package: com.roothide.patcher
+Version: 2.1.4-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 4124
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: ./debs/RootHide.deb
+Size: 1168828
+MD5sum: c2cb58d4727d3b8a7b7ace9f4d780420
+SHA1: 01b9805866e1b2122bd5bcbea058bd083e4b1603
+SHA256: 2f0fff42858b130220eb7685a3ee8b6f0eea3aedf7d241c63d3885555a1206ab
+Section: Utilities
+Description: patch rootless package to roothide, not work for all packages.
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.simon.ccmusic
+Version: 2.4
+Architecture: iphoneos-arm64
+Maintainer: simon
+Installed-Size: 564
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.simon.ccmusic_2.4_iphoneos-arm64.deb
+Size: 61100
+MD5sum: ec9e74326468788c3ca216084811c59d
+SHA1: 7a885acb072b53d757492c063f9148b873fb3eda
+SHA256: 82df32415da0fba970e9d1b83b77df9ae4fd305d0c72a4a24d9e49d9fe4b853b
+Section: Tweaks
+Description: 为控制中心的音乐模块添加动画
+Author: simon
+Name: 控制中心音乐模块动画
+
+Package: com.simon.dynamicislandanimation
+Version: 6.6.6
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Installed-Size: 484
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.dynamicislandanimation_6.6.6_iphoneos-arm64.deb
+Size: 43756
+MD5sum: 05ecfb22e622d1309f92f0429c47733c
+SHA1: f153481eca59c1f6a676082a48ed9749899e6a6c
+SHA256: 26a76925a26bbeb95cfb119bad1715b4ec4ba500ad264aeab73843755f06fed3
+Section: Tweaks
+Description: 用于灵动岛专辑及屏幕录制动画整合 定制专版，不再卑微！
+Author: Simon
+Name: 灵动岛动画ultra
+
 Package: com.susu.sumusicplayercc
 Version: 1.0.1
 Architecture: iphoneos-arm64e
