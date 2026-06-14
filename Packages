@@ -15,6 +15,39 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3404
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/Fv分屏破解版-1.6.0-6.deb
+Size: 654644
+MD5sum: f40b71a035c6451d1617c55c8ec4216f
+SHA1: 6dd92ccf24d573f62237ad617e6cc63fb3b4a60d
+SHA256: 30e1f4bbd99e4dff6485e2548026760e00e72a76dbbada1b2ab6b30777111b9a
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.bullet
+Version: 1.0.4-1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 1080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/弹幕通知.deb
+Size: 144836
+MD5sum: f5883820a50bead011ebdde01ffbe5b0
+SHA1: 591bb32c25af2f174272fb64149f95a105e47fe2
+SHA256: c3cf87336509e9d18d136a58e8dcce469690823f63f4a9fd2761fbf28159802a
+Section: Tweaks
+Description: 弹幕通知
+Author: be-huge
+Name: bullet
+
 Package: com.axs.screenshellpro
 Version: 5.2.0-61
 Architecture: iphoneos-arm64e
