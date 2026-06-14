@@ -15,6 +15,126 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.binglan.kzmh
+Version: 2.2.3-END
+Architecture: iphoneos-arm64e
+Maintainer: binglan
+Installed-Size: 2088
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.binglan.kzmh_2.2.3-END.deb
+Size: 628156
+MD5sum: e3e323dba387ecc4367c41af4d4dc520
+SHA1: 9eea2881f2ddb62cc5dd46fa0d081b654bd6995f
+SHA256: c31b5b68cf37a53e9223fb8517892eaeb09e43c697ee93a2f7d080f35fda7059
+Section: Tweaks
+Description: 神秘功能。
+Author: binglan
+Name: 控制中心美化
+
+Package: com.binglanqjsy.deb
+Version: 4.0.0-END
+Architecture: iphoneos-arm64e
+Maintainer: 冰蓝
+Installed-Size: 1260
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: ./debs/com.binglanqjsy.deb_4.0.0-END.deb
+Size: 327982
+MD5sum: 030abbb95f1b58aaaa6d91508be051bc
+SHA1: 2db46220a4bc996bfbd4c7d439244848af130aab
+SHA256: 884d4d0d6b7268112b01fcd2014fa32bde5bd8c99d400219faa6eb133dbe09aa
+Section: Tweaks
+Description: 让简单截图，拥有更多可能。
+Author: 冰蓝
+Name: 全局水印Pro
+
+Package: com.charlieleung.trollopenjb
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 5972
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/Trollopenjb_1.3.7_iphoneos-arm64e.deb
+Size: 2395696
+MD5sum: bb9fcaa0a2e89336637b6a24cd1e07d2
+SHA1: 5c0fdf985818459a006e2c73376ff1dc68012150
+SHA256: e26eaec07dc8e78e6b631b32135d6bdddbd47fb65df2acca4aa3cd64a5543a94
+Section: Tweaks
+Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
+Author: Charlie Leung
+Name: TrollOpen
+
+Package: com.end.xfdl
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: End
+Installed-Size: 444
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.end.xfdl_2.1.0.deb
+Size: 56008
+MD5sum: b886757378b01c043bf58ede799a9094
+SHA1: a8a85c81f13298084c5392c06c2426c0394173fc
+SHA256: 27e4322e213f153a2ac5615f36177c0b2f0b074ad15245294db46428727d4ee9
+Section: Tweaks
+Description: 给app加上悬浮底栏，带来不一样的视觉效果与体验
+Author: End
+Name: Endの悬浮底栏
+
+Package: com.end.yyxz
+Version: 1.3.1.4
+Architecture: iphoneos-arm64e
+Maintainer: End
+Installed-Size: 1192
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.end.yyxz_1.3.1.4.deb
+Size: 284000
+MD5sum: d2d6fa75cddf6673fc009408d0c1088c
+SHA1: e28fe03d74c8a858eda8db2f1dab1cc18479c1bf
+SHA256: af1959455443992addd64f146d1eac19d99609652a92c0d2dd81cac9ad1b5963
+Section: Tweaks
+Description: 因为喜欢，所以喜欢
+Author: End
+Icon: file:///Library/PreferenceBundles/EndSettings.bundle/icon.png
+Name: 控制中心专辑旋转
+
+Package: com.rain.120hzpro
+Version: 1.0.0-25+debug
+Architecture: iphoneos-arm64e
+Maintainer: rain
+Installed-Size: 452
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.rain.120hzpro.deb
+Size: 47976
+MD5sum: 066a187fc37ddf4e8f63e75a2a20a943
+SHA1: 96f07109af155abcdfd413487bf8af7cb84d0146
+SHA256: 41baee216668970cfa82805bd87198b76990693460ce78faeab33a6bc856138b
+Section: Tweaks
+Description: 强制高帧率应用到每一个应用上
+Author: rain
+Name: rain的120hz Pro
+
+Package: com.rain.dock
+Version: 3.6.1
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 712
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/com.rain.dock_3.6.1.deb
+Size: 162618
+MD5sum: 1d4b5db051b6cac16767862cfb2ddb94
+SHA1: 3ddee756f23ce8a2b1a354c08ce8a943b075952d
+SHA256: df2cf13814e0e0866b13ea05478d77cb44b8d0133db8ee6b9f455e7e251674e4
+Section: Tweaks
+Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池条/快捷启动/手势操作/霓虹文字/矩阵雨/彩虹边框/生态缸
+Author: Rain
+Name: Rain的Dock
+
 Package: com.AD.MemoryOptimization
 Version: 1.0.5
 Architecture: iphoneos-arm64e
