@@ -15,6 +15,87 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.iosdump.airdrop
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/AirDrop.deb
+Size: 3318
+MD5sum: 7bc9c25417323a3567ca98305416161e
+SHA1: e44bdae3780f0cfe278030735bb8a4f0d15a89b6
+SHA256: ef40bfd34c208f2cc1e2011dee3160d4ea04788fb5650371e7054adf1f590a61
+Section: Tweaks
+Description: 解除隔空十分钟限制iOS16+
+Author: iosdump
+Name: AirDrop
+
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/通话背景.deb
+Size: 68036
+MD5sum: c7a6c8dbe33d2776723dfe7c54613aeb
+SHA1: 38ba8698e551b94d6fb8bf313c86fa8d08c4de7e
+SHA256: fb2c7b14887a6c9b425c055e4d236e9a34c1c50f86d359663685aba7eaaab78f
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: 通话背景
+
+Package: com.iosdump.zone
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 976
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.iosdump.zone_1.3.0_iphoneos-arm64e.deb
+Size: 167096
+MD5sum: 6b8607c88a3148ebdb6f85d100ae9ec1
+SHA1: 2f082132667d6ad72d908740ec0dd78799ec1a5a
+SHA256: 76f6978ca464aa90a0e22caef707d2a632911894f1e26453f07d23fe231337a0
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.lightisle
+Version: 1.0.0-2
+Architecture: iphoneos-arm64e
+Maintainer: 旧约
+Installed-Size: 1304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.1)
+Filename: ./debs/灵动岛手电筒_1.0.0-2.deb
+Size: 955252
+MD5sum: c5006c169f89c6bf2eea44c2312cb0a8
+SHA1: 4bf312f22809d4c6e8c7825d2590ea4a8895740d
+SHA256: 0601fb18158766bb5014697339df5a3c0e28180c4d1807f971a8ebe889f29488
+Section: 灵动岛
+Description: 为iOS16添加灵岛手电筒控制
+Author: 旧约
+Name: 灵动岛手电筒
+
+Package: com.smoothinstall
+Version: 0.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.smoothinstall_0.0.1-1_iphoneos-arm64e.deb
+Size: 5612
+MD5sum: 1377e26f41c9b79fae063da298e96c14
+SHA1: 45d163f8f828f7a4e681aa9fa908ab40a17705c2
+SHA256: ae8d6bf8430e528f6beb80826b21d6f012a110d9c286cbe69f8837a568e9c57d
+Section: 越狱插件
+Description: 简化roothide越狱安装rootless插件时的流程
+Author: SINI
+Name: SmoothInstall
+
 Package: com.be-huge.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64e
