@@ -15,6 +15,109 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.AD.MemoryOptimization
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: AD
+Installed-Size: 162
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: zp.stopautolaunchapps
+Filename: ./debs/内存优化.deb
+Size: 4790
+MD5sum: c1d611363b17c1caa63af866a26729d6
+SHA1: f198c0c83479b25464aeb8ca411a1a1818b6c722
+SHA256: 7bf4b034b42c8ee3876d02e1c24dc0d4778cc0e2bd76aa052d36f8b53e4bb6fd
+Section: System系统
+Description: 禁用iOS热启动神经网络引擎,禁止iOS后台热加载app！优点:节约内存,少杀后台！玄学:减少重启概率！安装完成后，请重启一下用户空间！
+Author: zqbb
+Name: 内存优化
+
+Package: com.appiconbundles
+Version: 5.2.0-99
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 536
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/AppIcon.deb
+Size: 55272
+MD5sum: afcf29d1293f2e9ad49c3c1813cfc805
+SHA1: 2fbc831de3fe835b74b6d1b9361d4c6bcab890fc
+SHA256: 219d1cb0301ed6e37146adeed0d6ee276bf0a521d5dac113aeb6a70511fd4169
+Section: Tweaks
+Description: 用包标识符文件名替换/var/mobile/Axs/IconBundles下主题文件夹中的SpringBoard主屏幕和Dock应用程序图标。
+Author: Axs
+Name: AppIcon
+
+Package: com.ios16dao
+Version: 5.2.0-350
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 780
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/iosdao.deb
+Size: 102512
+MD5sum: 9863b806238e59d1bc8abfb62c08dcb9
+SHA1: eb2ad343be63bf631b3d159b87a7dacd76e344ba
+SHA256: 8f91b13d2f9ad5e6789cae73a66f7ff106fb164544c02ed650cdac4ced747869
+Section: 灵动岛
+Description:
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Author: Axs
+Name: ios16~17动态岛
+
+Package: com.susu.sumusicplayercc
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: ./debs/ss3×2播放器.deb
+Size: 123076
+MD5sum: ddda6ba4debed9742b9824d9ef046c4e
+SHA1: b0ebb48485962dc9b7bde3166925ce526bda497d
+SHA256: e9a610313f58a5d1e0c5490041d1991612b21714359331909396597bd07bc08a
+Section: Control Center (Modules)
+Description: 控制中心音乐播放器
+Author: 苏苏
+Icon: https://www.susubaby.top/images/sumusicplayercc.png
+Name: SuMusicPlayerCC
+
+Package: com.switchicon
+Version: 5.2.0-139
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 836
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/SwitchIcon.deb
+Size: 124824
+MD5sum: 1b5551d933696cb74471d164246d9138
+SHA1: c7dfa3e9f1625bf2841cb28132642f646828715a
+SHA256: 1ae2c6209b5292bf565c8ee907146ad8bc8c8c7c5962ee15de183c5f153d3cae
+Section: Tweaks
+Description:
+ * 一、纯代码开关组
+ * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
+ * 2. 静态组：日月开关、水滴开关、立体开关、温度开关、星月开关，覆盖多种精致静态样式；
+ * 3. 液态开关：复刻 iOS 26 风格，并支持开启状态颜色自定义；
+ * 4. 日月开关：支持太阳、云朵、月亮、星星颜色自定义，一个开关也能千变万化。
+ * 二、素材开关组
+ * 1. 素材开关：在指定路径放置 on.png/off.png 开关素材；
+ * 2. 支持创建多套，在插件面板自由切换。
+ * 三、温馨提示
+ * 1. 早买早享受，后续免费更新；
+ * 2. 后续增加新样式，新用户可能面临涨价。
+Author: Axs
+Name: Switch Icon
+
 Package: com.rain.rainwindow
 Version: 1.0-2
 Architecture: iphoneos-arm64
