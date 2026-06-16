@@ -15,6 +15,106 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.go.mango
+Version: 0.0.10-1
+Architecture: iphoneos-arm64e
+Maintainer: go
+Installed-Size: 1360
+Depends: mobilesubstrate
+Filename: ./debs/Mango_0.0.10-1.deb
+Size: 418482
+MD5sum: e7982751fa71eb771915871b249dd471
+SHA1: 1a9eca60f78b186b46db112631ad0bad449698cb
+SHA256: 387e05ce28c69f5ab26ab41e316c0ff179df662605cc243acfecefa87115c53e
+Section: Tweaks
+Description: 芒果，轻量分屏，舒适，顺手。
+Author: go
+Name: mango
+
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/customccbg_0.0.1.deb
+Size: 45416
+MD5sum: 879393ace1c99a511fb43fa88c8a24fa
+SHA1: b4a91f02a751401cb46aabe4d7db0f2cdfc79693
+SHA256: f220bdd43b38b6b1d919d49ecc5b78eb1eeb129a722da771e69d3464ea239289
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.zone
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 1144
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/Zone_2.0.0.deb
+Size: 206022
+MD5sum: 25a7523ede8066dfb3a933faf88b1261
+SHA1: 54f65875274b9d24b4c1dff2d406ea2154d8be0c
+SHA256: 4d138dee32ff1ddc0052c01d159db01391f52de9aca480ebfaabcf8393fadbe4
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.roothide.manager
+Version: 1.3.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 1108
+Depends: firmware (>= 15.0)
+Filename: ./debs/RootHide.deb
+Size: 752808
+MD5sum: a228c774aac1789cafa875db403eacec
+SHA1: 6bdc49887a3d23318b33e5f83113e2e70c85eb89
+SHA256: bd2b1e9603a518a469926cca5b6ea797577b23815065addf176dee3d4d4ffcd2
+Section: System
+Description: Configuare RootHide's Features
+Author: roothide
+Depiction: https://github.com/roothide/RootHideManagerApp
+Name: RootHide Manager
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.simon.ccglow
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Simon
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.ccglow_2.0.3.deb
+Size: 25684
+MD5sum: 9242b7d607e186e877fd1d837cf30de6
+SHA1: bf878ed62bb745fda3b31b17cb2bdfdba4e4f76c
+SHA256: 359b1be61bc7d607ec247b1280e82cdb19e0f7f36c96bb0c6e7e5b35c008e6a2
+Section: 控制中心
+Description: 控制中心发光
+Author: Simon
+Name: 控制中心发光
+
+Package: com.susu.collection
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 520
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/SuCollection.deb
+Size: 72742
+MD5sum: 5ea1f3629eba7cde61f362df09d35b3b
+SHA1: 0c0603c97b1514e7cc5e40b0dfe2faf7cbc06252
+SHA256: 8ed2da749dc34394a79786d21a1a10cc57406d49e403ea7302006277b0bc0bce
+Section: Tweaks
+Description: 自用合集插件
+Author: SuSu
+Name: SuCollection
+
 Package: userfile
 Version: 1.2
 Architecture: iphoneos-arm64e
