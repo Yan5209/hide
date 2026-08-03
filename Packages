@@ -15,6 +15,23 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.end.qjbk
+Version: 5.2.25
+Architecture: iphoneos-arm64e
+Maintainer: End
+Installed-Size: 556
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.end.qjbk_5.2.25_iphoneos-arm64e.deb
+Size: 72892
+MD5sum: 7921dbfdc8570a457eb9b8d96f7c3f89
+SHA1: 2593a2fcd066c7a78b8026b28f0b357ffef7e94e
+SHA256: 747624bf64537f7f5b3abe8261419f53c2a309e951654e6f48868d739ad9b3f6
+Section: Tweaks
+Description: End很懒，不想介绍
+Author: End
+Name: Endの全局边框
+
 Package: com.go.mango
 Version: 0.0.10-1
 Architecture: iphoneos-arm64e
