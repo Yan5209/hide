@@ -15,6 +15,40 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.go.mango
+Version: 0.1-141
+Architecture: iphoneos-arm64e
+Maintainer: go
+Installed-Size: 3224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.go.mango_0.1-141_iphoneos-arm64e.deb
+Size: 871512
+MD5sum: 04229d26601223bd7a56fb2fffa9a9b3
+SHA1: ae9391d41491e758002fc21f11b621a9ff786a66
+SHA256: 68d43d4ba90b7445a60950ff05ba45b2f7af9ab3eaa3cbdd4378d0fbd92889c6
+Section: Tweaks
+Description: 作者很懒，没有写描述，只能自己去发现。
+Author: go
+Name: mango
+
+Package: com.xyzl.customnotisoundcn
+Version: 1.7-3-1
+Architecture: iphoneos-arm64e
+Maintainer: xyzl
+Installed-Size: 1180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | libellekit, preferenceloader, com.opa334.altlist, firmware (>= 14.0)
+Filename: ./debs/com.xyzl.customnotisoundcn_1.7-3-1_iphoneos-arm64e.deb
+Size: 139988
+MD5sum: d57c670688ef6ba54e354d7c1271b7fb
+SHA1: 66a796b7613fdb82479187a148e63694a76c1283
+SHA256: ecff7fd8002d0f4d8fd346f3eddd06ec3a026b64ebbf0ffb09eec140dd21abd9
+Section: Tweaks
+Description: 自定义App、App内联系人通知声音、振动模式。
+Author: xyzl
+Name: 自定义通知声音
+
 Package: com.end.qjbk
 Version: 5.2.25
 Architecture: iphoneos-arm64e
