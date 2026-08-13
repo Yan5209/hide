@@ -15,6 +15,22 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: ws.hbang.newterm3
+Version: 3.0
+Architecture: iphoneos-arm64e
+Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: ./debs/NewTerm3中文版.deb
+Size: 23634876
+MD5sum: f623ccdef54b4da1fa8474b83b46e1d1
+SHA1: 910832d281517fd1eadd89bbd6a5073e7676e385
+SHA256: 61d2cc6488858e23a5ee33417ec2138fccd07c5a88deec9496765cdc29d5c272
+Section: Tweaks
+Description: newterm3中文版
+Author: 玩游戏的李子- <xuanhua880@gmail.com>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm3中文版
+
 Package: com.25mao.leftpan.rootless
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -1085,22 +1101,6 @@ Section: Tweaks
 Description: 终端输入Stheno+udid计算激活码
 Author: Crassna
 Name: Stheno
-
-Package: ws.hbang.newterm3
-Version: 3.0
-Architecture: iphoneos-arm64e
-Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Filename: ./debs/NewTerm3中文版.deb
-Size: 19871724
-MD5sum: 2719911fc82e5a748c886b0ea4f322e9
-SHA1: 49c73a148bd679ec36faf26b7ccf9e487bc330f7
-SHA256: 477a07b1333ee1d6d82989794966b6fecb4dc2362ce08dddf6a1b7de54a7af1f
-Section: Tweaks
-Description: newterm3中文版
-Author: 玩游戏的李子- <xuanhua880@gmail.com>
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Name: NewTerm3中文版
 
 Package: jp.uzra.aerial
 Version: 4.1.3
