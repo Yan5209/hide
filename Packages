@@ -1750,24 +1750,6 @@ Description: 适配任何带锁屏歌词的应用！
 Author: Mika
 Name: 桌面歌词
 
-Package: com.jontelang.snapper3
-Version: 1.2.1
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4148
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: ./debs/Snapper 3.deb
-Size: 2254772
-MD5sum: f7f6bb1c012f92ac5a561b1c862fecc4
-SHA1: f4454babc4b5f255180345b0d323c1d69d740af7
-SHA256: 7e3774beb32dde3448590b3cd5d5bdab8f98c454ec626874a77cffff76da6800
-Section: Tweaks
-Description: Pin screenshots on the screen.
-Author: Jonathan Winger-lang
-Name: Snapper 3
-
 Package: com.junzai.jellyanimation
 Version: 3.0
 Architecture: iphoneos-arm64e
@@ -2375,22 +2357,6 @@ SHA1: bd9634a391a9c61ab029df11e2b9c75d45010931
 SHA256: 57730158858d8c539b9fd6622b429ae02251060bc57aab8c5f8bc84be865b5ac
 Description: 在锁屏界面上，显示将来几天的节日，
 Name: Events锁屏日历
-
-Package: net.leftpar
-Version: 1.0-6
-Architecture: iphoneos-arm64e
-Maintainer: admin@25mao.com <admin@25mao.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
-Filename: ./debs/左滑返回.deb
-Size: 56094
-MD5sum: 87fcc55e9d415dd7474219d4493a695b
-SHA1: b5d4c1bd7f2187a3da302b96aecb6dbc4d6ed7b7
-SHA256: 737911ed9700eff016704d621f84cd95aa83e701f2341f128b1af733ebfe3297
-Section: 系统增强
-Description: 左滑返回上一页面
-Author: Mao
-Name: 左滑返回
 
 Package: net.storeswitcher2
 Version: 1.1-4
