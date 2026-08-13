@@ -15,6 +15,59 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.25mao.leftpan.rootless
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: ./debs/左滑返回_2.0_iphoneos-arm64e.deb
+Size: 40566
+MD5sum: 311ff1e894db4517eebc171fd4e1a5e0
+SHA1: a5cefc2a8e0b62db872aa04c776e792e3ac32b7c
+SHA256: c2aeedefef3a8ea5aee491f66d90cf7a7d61e6f1fdbcef666a89037bf4db732c
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 2254974
+MD5sum: 82259514fab73ee55a77ed0b5f15aa6a
+SHA1: 362315c6548306a59443daafed3a085fee8b3262
+SHA256: a3d447e0799f97d16a7f38e74887a5d1569566141ab62e34ab95ca8f25604ac2
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
+
+Package: com.zqbb.hello.keyboard.ai
+Version: 6.3.0-3
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 8040
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: cn.zqbb.hello.keyboard.ai
+Filename: ./debs/com.zqbb.hello.keyboard.ai_6.3.0-3_iphoneos-arm64e.deb
+Size: 6475882
+MD5sum: 7b69775ff8b513b147055b4d3dbccf95
+SHA1: be016416a5e05f392f2e54a0802a97b7cf765630
+SHA256: dac6b117f87eeae7334d2d0d4c7aa343119343e7878f06fa1949360281aef65e
+Section: Tweaks
+Description: Quickly activate AI mode.
+Author: zqbb
+Name: HelloKeyboardAI
+
 Package: com.go.mango
 Version: 0.1-141
 Architecture: iphoneos-arm64e
