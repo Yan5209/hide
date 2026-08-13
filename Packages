@@ -15,6 +15,25 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.roothide.patcher
+Version: 2.1.4-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 4124
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: ./debs/roothide.deb
+Size: 1174052
+MD5sum: 8750de203aa5ff94ebd6f6e247f76888
+SHA1: 92b3eccbd48bb6063e6b0bcce7fb4d537a980bc5
+SHA256: 5ddf9d5446579df6be716b495af6b659867b3a566ca9a85d238fd7f4e21c7d5e
+Section: Utilities
+Description: patch rootless package to roothide, not work for all packages.
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
 Package: com.25mao.leftpan.rootless
 Version: 2.0
 Architecture: iphoneos-arm64e
