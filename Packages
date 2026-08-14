@@ -15,6 +15,20 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: zp.cocoatop64
+Version: 2.3.3.1
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 936
+Filename: ./debs/CocoaTop64.deb
+Size: 244284
+MD5sum: ada30664a86a3422603ddcbe6a64d194
+SHA1: 3f0ac9c1a132bf0c34f9f6eb08057e9aebe22e6e
+SHA256: f887ad34eda28d4a260b8e1d8ce6ec911bd310a6ee2ad0d40b6d412f94930bfc
+Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
+Author: Domo, SXX
+Name: CocoaTop64 中文版
+
 Package: ws.hbang.newterm3
 Version: 3.0
 Architecture: iphoneos-arm64e
@@ -1187,22 +1201,6 @@ Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保�
 Author: Rain
 Name: Free免费120hz
 Sponsor: Rain
-
-Package: zp.cocoatop64
-Version: 3.1.2
-Architecture: iphoneos-arm64e
-Maintainer: zp
-Pre-Depends: rootless-compat(>= 0.9)
-Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
-Filename: ./debs/CocoaTop64.deb
-Size: 276504
-MD5sum: 282ac7ab5d7db7b982d82634340b3649
-SHA1: 2ca20cf917d75ce752fe95501850d9dc5cd9fd2b
-SHA256: eab55846d7d45375799418b84284e2f9f007910d06b507f37c45c1d02daa6b24
-Section: Utilities
-Description: 适配rootless并增加一些小功能.- 1.长按图标的插件针对APP更友好- 2.此app更适合屏蔽进程类的注入- 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
-Author: Domo
-Name: CocoaTop64
 
 Package: me.afhook
 Version: 3.7.0
