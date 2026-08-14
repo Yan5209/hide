@@ -15,6 +15,24 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.opa334.crane
+Version: 1.3.17-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy (>= 1.1.6), com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane.deb
+Size: 613080
+MD5sum: 67b11510ed3fa1656d6beb49ca57fc68
+SHA1: 45cd4ded3c29182242459273f927102ae798a452
+SHA256: 42e833f77662c31ebd5c0b940e636c39953b064ceb2846d99316447325bdc8ea
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
 Package: zp.cocoatop64
 Version: 2.3.3.1
 Architecture: iphoneos-arm64e
