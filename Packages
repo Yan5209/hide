@@ -15,6 +15,25 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.susu.ios18batteryestimate
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: ./debs/com.susu.ios18batteryestimate_1.1.5_iphoneos-arm64e.deb
+Size: 36560
+MD5sum: 4b3023ff94cf0cd39c5dd989e7c09b99
+SHA1: c692477c43861482b610a70559fc47cb137b6d37
+SHA256: cd288ae1eb9c2160b21a538e4669d74b6481b3828158bd7507cf3450840120b5
+Section: 调整
+Description: 在锁屏界面显示预计充电时间
+Author: 苏苏
+Icon: https://www.susubaby.top/images/batteryestimate.png
+Name: iOS18BatteryEstimate
+Sileodepiction: https://www.susubaby.top/json/iOS18BatteryEstimate/js.json
+
 Package: com.snail.niubibar.roothide
 Version: 1.1.2
 Architecture: iphoneos-arm64e
