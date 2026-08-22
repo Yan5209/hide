@@ -15,6 +15,35 @@ Description: AppTools圆形图标
 Author: 绘梨衣
 Name: AppTools圆形图标
 
+Package: com.kitten.tweaktool
+Version: 2.1.0-roothide
+Architecture: iphoneos-arm64e
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), findutils, grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.kitten.tweaktool_2.1.0-roothide_iphoneos-arm64e.deb
+Size: 11524
+MD5sum: cb125b23746dc5b988061b9ea8226981
+SHA1: 4abc55bc6698f392ea319a1c360b874975343312
+SHA256: 6c3d6f991b296ba86745d72496a55b0741df8fd6ce45eb918f02cdd165982a17
+Section: Tweaks
+Description: 一键备份恢复工具，含插件清单和并发归档优化，终端输入 sudo backup 运行
+Author: 预言小猫
+Name: 一键备份和恢复工具
+
+Package: com.tool.setlock
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: User <user@local>
+Filename: ./debs/com.tool.setlock_1.0_iphoneos-arm64e.deb
+Size: 1156
+MD5sum: 83ffb73a6d156ee324ea8dfd92ade349
+SHA1: 08413effdd2e248349a88cffc67eafc73472714b
+SHA256: 2d529f123780b79eaaa3a00baea1ea782f309f4d41c9bca752aefff0d85b1d0a
+Section: Utilities
+Priority: optional
+Description: 对当前目录递归设置schg系统不可变锁
+Name: 目录加锁工具
+
 Package: com.wkk.keyboardx
 Version: 1.0-6
 Architecture: iphoneos-arm64e
